@@ -8,6 +8,9 @@ Description: L Feher frequently used R functions.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Maintainer: Laura Feher <lfeher@usgs.gov>
-Suggests: ggplot2
+Suggests: 
+    ggplot2,
+    testthat (>= 3.0.0)
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.2
+Config/testthat/edition: 3
