@@ -6,9 +6,9 @@
 #' @keywords lfeher
 #' @export
 #' @examples
-#' lfeher_theme()
+#' lfeheR::theme()
 #'
-lfeher_theme <- function(base_size = 10, base_color = "black") {
+theme <- function(base_size = 10, base_color = "black") {
   ggplot2::theme(
     text = ggplot2::element_text(size = base_size, color = base_color),
     panel.grid = ggplot2::element_blank(),

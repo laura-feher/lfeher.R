@@ -7,6 +7,6 @@
 # * https://testthat.r-lib.org/reference/test_package.html#special-files
 
 library(testthat)
-library(lfeherR)
+library(lfeheR)
 
-test_check("lfeherR")
+test_check("lfeheR")
