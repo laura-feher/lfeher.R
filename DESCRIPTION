@@ -1,6 +1,6 @@
-Package: lfeherR
+Package: lfeheR
 Title: L Feher frequently used R functions
-Version: 0.0.0.9000
+Version: 1.0.0
 Authors@R: 
     person("Laura", "Feher", email = "lfeher@usgs.gov", role = c("aut", "cre"), 
              comment = c(ORCID = "0000-0000-0000-0000"))
@@ -12,5 +12,5 @@ Suggests:
     ggplot2,
     testthat (>= 3.0.0)
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.1.2
+RoxygenNote: 7.2.1
 Config/testthat/edition: 3

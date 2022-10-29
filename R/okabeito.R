@@ -5,9 +5,9 @@
 #' @keywords lfeher
 #' @export
 #' @examples
-#' lfeher_okabeito()
+#' lfeheR::okabeito()
 #'
-lfeher_okabeito <- function(base_color = "#000000") {
+okabeito <- function(base_color = "#000000") {
   list(
     color = c(
       "black", "orange", "sky blue", "blueish green",
