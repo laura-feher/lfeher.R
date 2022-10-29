@@ -5,10 +5,12 @@ Authors@R:
     person("Laura", "Feher", email = "lfeher@usgs.gov", role = c("aut", "cre"), 
              comment = c(ORCID = "0000-0000-0000-0000"))
 Description: L Feher frequently used R functions.
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+License: MIT + file LICENSE
 Encoding: UTF-8
 Maintainer: Laura Feher <lfeher@usgs.gov>
-Suggests: ggplot2
+Suggests: 
+    ggplot2,
+    testthat (>= 3.0.0)
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.2
+Config/testthat/edition: 3
